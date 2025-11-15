@@ -1,4 +1,4 @@
-/*Getting elements
+//Getting elements
 const searchBtn = document.getElementById("search-btn");
 const cityInput = document.getElementById("city-input");
 
@@ -19,4 +19,4 @@ searchBtn.addEventListener("click", () => {
     cityName.textContent = "City: " + userCity;
     temperature.textContent = "Temperature: 25°C";
     description.textContent = "Weather: Clear Sky";
-});*/
+});
